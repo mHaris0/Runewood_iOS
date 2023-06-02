@@ -1,0 +1,6 @@
+framework module Pods_Runewood_RunewoodUITests {
+  umbrella header "Pods-Runewood-RunewoodUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

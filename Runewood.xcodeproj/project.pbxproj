@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183220E2277C4743003E3F77 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183220E1277C4743003E3F77 /* WelcomeViewController.swift */; };
+		183220FC277C84C4003E3F77 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183220FB277C84C3003E3F77 /* SplashViewController.swift */; };
+		187FDA4627799A7500BB42D5 /* ButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FDA4527799A7500BB42D5 /* ButtonsViewController.swift */; };
+		187FDA922779A31000BB42D5 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FDA912779A31000BB42D5 /* AppConstants.swift */; };
+		187FDB292779DE3A00BB42D5 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FDB282779DE3A00BB42D5 /* UIExtensions.swift */; };
+		189395DE27C64F7F008F07E3 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189395DD27C64F7F008F07E3 /* SpinnerView.swift */; };
+		189395E027C8B91F008F07E3 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189395DF27C8B91E008F07E3 /* ConnectionViewController.swift */; };
+		18A0A8C827A7D400007FF62B /* IncorrectPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0A8C727A7D400007FF62B /* IncorrectPassVC.swift */; };
+		18A0A8EE27A7F4C4007FF62B /* ReConnectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0A8ED27A7F4C4007FF62B /* ReConnectVC.swift */; };
+		18C70C012769F62A00001BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70C002769F62A00001BFE /* AppDelegate.swift */; };
+		18C70C052769F62B00001BFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70C042769F62B00001BFE /* ViewController.swift */; };
+		18C70C082769F62B00001BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C70C062769F62B00001BFE /* Main.storyboard */; };
+		18C70C0A2769F62D00001BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C70C092769F62D00001BFE /* Assets.xcassets */; };
+		18C70C0D2769F62D00001BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C70C0B2769F62D00001BFE /* LaunchScreen.storyboard */; };
+		18C70C182769F62D00001BFE /* RunewoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70C172769F62D00001BFE /* RunewoodTests.swift */; };
+		18C70C232769F62D00001BFE /* RunewoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70C222769F62D00001BFE /* RunewoodUITests.swift */; };
+		18C70CA0276C705C00001BFE /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70C9F276C705C00001BFE /* DeviceTableViewCell.swift */; };
+		18C70CB2276C9ADE00001BFE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C70CB1276C9ADE00001BFE /* CoreBluetooth.framework */; };
+		18D826672774812B00101539 /* RoundCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D826662774812B00101539 /* RoundCornerView.swift */; };
+		18D8266F2774821800101539 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8266E2774821800101539 /* PasswordViewController.swift */; };
+		72C9DA274D600FB3CDBD2754 /* Pods_Runewood_RunewoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6550330DA07D8C9C6DE05D /* Pods_Runewood_RunewoodUITests.framework */; };
+		B0E109DCE22BB7B4B26F6F9E /* Pods_Runewood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1911B25B7490A4B8E18D93 /* Pods_Runewood.framework */; };
+		E05CE7082DCEB5097B1729B6 /* Pods_RunewoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D786802E2F8923F6605C1017 /* Pods_RunewoodTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C70C142769F62D00001BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C70BF52769F62A00001BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C70BFC2769F62A00001BFE;
+			remoteInfo = Runewood;
+		};
+		18C70C1F2769F62D00001BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C70BF52769F62A00001BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C70BFC2769F62A00001BFE;
+			remoteInfo = Runewood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183220E1277C4743003E3F77 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		183220FB277C84C3003E3F77 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		187FDA4527799A7500BB42D5 /* ButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsViewController.swift; sourceTree = "<group>"; };
+		187FDA912779A31000BB42D5 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		187FDB282779DE3A00BB42D5 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		189395DD27C64F7F008F07E3 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		189395DF27C8B91E008F07E3 /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		18A0A8C727A7D400007FF62B /* IncorrectPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncorrectPassVC.swift; sourceTree = "<group>"; };
+		18A0A8ED27A7F4C4007FF62B /* ReConnectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReConnectVC.swift; sourceTree = "<group>"; };
+		18C70BFD2769F62A00001BFE /* Runewood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runewood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C70C002769F62A00001BFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C70C042769F62B00001BFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C70C072769F62B00001BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C70C092769F62D00001BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C70C0C2769F62D00001BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C70C0E2769F62D00001BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C70C132769F62D00001BFE /* RunewoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunewoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C70C172769F62D00001BFE /* RunewoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunewoodTests.swift; sourceTree = "<group>"; };
+		18C70C192769F62D00001BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C70C1E2769F62D00001BFE /* RunewoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunewoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C70C222769F62D00001BFE /* RunewoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunewoodUITests.swift; sourceTree = "<group>"; };
+		18C70C242769F62D00001BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C70C9F276C705C00001BFE /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		18C70CB1276C9ADE00001BFE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		18D826662774812B00101539 /* RoundCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornerView.swift; sourceTree = "<group>"; };
+		18D8266E2774821800101539 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		18D8F93C4369B0AAE4A92902 /* Pods-Runewood-RunewoodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runewood-RunewoodUITests.release.xcconfig"; path = "Target Support Files/Pods-Runewood-RunewoodUITests/Pods-Runewood-RunewoodUITests.release.xcconfig"; sourceTree = "<group>"; };
+		339FFD09ECB795F49D36A9AB /* Pods-RunewoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunewoodTests.release.xcconfig"; path = "Target Support Files/Pods-RunewoodTests/Pods-RunewoodTests.release.xcconfig"; sourceTree = "<group>"; };
+		43D05C6C4254FEBAFF0830A4 /* Pods-Runewood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runewood.release.xcconfig"; path = "Target Support Files/Pods-Runewood/Pods-Runewood.release.xcconfig"; sourceTree = "<group>"; };
+		71479C1406C62CAC1AF2B1B3 /* Pods-Runewood-RunewoodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runewood-RunewoodUITests.debug.xcconfig"; path = "Target Support Files/Pods-Runewood-RunewoodUITests/Pods-Runewood-RunewoodUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91895943A4F0111D1734D962 /* Pods-RunewoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunewoodTests.debug.xcconfig"; path = "Target Support Files/Pods-RunewoodTests/Pods-RunewoodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF1911B25B7490A4B8E18D93 /* Pods_Runewood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runewood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6550330DA07D8C9C6DE05D /* Pods_Runewood_RunewoodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runewood_RunewoodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D786802E2F8923F6605C1017 /* Pods_RunewoodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunewoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97ABB029D5B11967B8583CA /* Pods-Runewood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runewood.debug.xcconfig"; path = "Target Support Files/Pods-Runewood/Pods-Runewood.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C70BFA2769F62A00001BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C70CB2276C9ADE00001BFE /* CoreBluetooth.framework in Frameworks */,
+				B0E109DCE22BB7B4B26F6F9E /* Pods_Runewood.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C70C102769F62D00001BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05CE7082DCEB5097B1729B6 /* Pods_RunewoodTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C70C1B2769F62D00001BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C9DA274D600FB3CDBD2754 /* Pods_Runewood_RunewoodUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11685612568CD10B3BE40576 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E97ABB029D5B11967B8583CA /* Pods-Runewood.debug.xcconfig */,
+				43D05C6C4254FEBAFF0830A4 /* Pods-Runewood.release.xcconfig */,
+				71479C1406C62CAC1AF2B1B3 /* Pods-Runewood-RunewoodUITests.debug.xcconfig */,
+				18D8F93C4369B0AAE4A92902 /* Pods-Runewood-RunewoodUITests.release.xcconfig */,
+				91895943A4F0111D1734D962 /* Pods-RunewoodTests.debug.xcconfig */,
+				339FFD09ECB795F49D36A9AB /* Pods-RunewoodTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		187FDA902779A2BC00BB42D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18D8266E2774821800101539 /* PasswordViewController.swift */,
+				187FDA4527799A7500BB42D5 /* ButtonsViewController.swift */,
+				18C70C042769F62B00001BFE /* ViewController.swift */,
+				183220E1277C4743003E3F77 /* WelcomeViewController.swift */,
+				183220FB277C84C3003E3F77 /* SplashViewController.swift */,
+				18A0A8C727A7D400007FF62B /* IncorrectPassVC.swift */,
+				18A0A8ED27A7F4C4007FF62B /* ReConnectVC.swift */,
+				189395DF27C8B91E008F07E3 /* ConnectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18C70BF42769F62A00001BFE = {
+			isa = PBXGroup;
+			children = (
+				18C70BFF2769F62A00001BFE /* Runewood */,
+				18C70C162769F62D00001BFE /* RunewoodTests */,
+				18C70C212769F62D00001BFE /* RunewoodUITests */,
+				18C70BFE2769F62A00001BFE /* Products */,
+				18C70CB0276C9ADE00001BFE /* Frameworks */,
+				11685612568CD10B3BE40576 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		18C70BFE2769F62A00001BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C70BFD2769F62A00001BFE /* Runewood.app */,
+				18C70C132769F62D00001BFE /* RunewoodTests.xctest */,
+				18C70C1E2769F62D00001BFE /* RunewoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C70BFF2769F62A00001BFE /* Runewood */ = {
+			isa = PBXGroup;
+			children = (
+				18C70C002769F62A00001BFE /* AppDelegate.swift */,
+				18C70CA4276C753D00001BFE /* Extensions */,
+				18C70C9E276C701800001BFE /* TableViewCells */,
+				187FDA902779A2BC00BB42D5 /* ViewControllers */,
+				18C70C062769F62B00001BFE /* Main.storyboard */,
+				18C70C092769F62D00001BFE /* Assets.xcassets */,
+				18C70C0B2769F62D00001BFE /* LaunchScreen.storyboard */,
+				18C70C0E2769F62D00001BFE /* Info.plist */,
+			);
+			path = Runewood;
+			sourceTree = "<group>";
+		};
+		18C70C162769F62D00001BFE /* RunewoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C70C172769F62D00001BFE /* RunewoodTests.swift */,
+				18C70C192769F62D00001BFE /* Info.plist */,
+			);
+			path = RunewoodTests;
+			sourceTree = "<group>";
+		};
+		18C70C212769F62D00001BFE /* RunewoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C70C222769F62D00001BFE /* RunewoodUITests.swift */,
+				18C70C242769F62D00001BFE /* Info.plist */,
+			);
+			path = RunewoodUITests;
+			sourceTree = "<group>";
+		};
+		18C70C9E276C701800001BFE /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				18C70C9F276C705C00001BFE /* DeviceTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		18C70CA4276C753D00001BFE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18D826662774812B00101539 /* RoundCornerView.swift */,
+				187FDA912779A31000BB42D5 /* AppConstants.swift */,
+				187FDB282779DE3A00BB42D5 /* UIExtensions.swift */,
+				189395DD27C64F7F008F07E3 /* SpinnerView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18C70CB0276C9ADE00001BFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C70CB1276C9ADE00001BFE /* CoreBluetooth.framework */,
+				BF1911B25B7490A4B8E18D93 /* Pods_Runewood.framework */,
+				CF6550330DA07D8C9C6DE05D /* Pods_Runewood_RunewoodUITests.framework */,
+				D786802E2F8923F6605C1017 /* Pods_RunewoodTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C70BFC2769F62A00001BFE /* Runewood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C70C272769F62D00001BFE /* Build configuration list for PBXNativeTarget "Runewood" */;
+			buildPhases = (
+				5A3F5E75D31DBC8E0D80FB17 /* [CP] Check Pods Manifest.lock */,
+				18C70BF92769F62A00001BFE /* Sources */,
+				18C70BFA2769F62A00001BFE /* Frameworks */,
+				18C70BFB2769F62A00001BFE /* Resources */,
+				259D913E7F1E60B3F5F96A54 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runewood;
+			productName = Runewood;
+			productReference = 18C70BFD2769F62A00001BFE /* Runewood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C70C122769F62D00001BFE /* RunewoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C70C2A2769F62D00001BFE /* Build configuration list for PBXNativeTarget "RunewoodTests" */;
+			buildPhases = (
+				C8F9B36715B55F07CDD51790 /* [CP] Check Pods Manifest.lock */,
+				18C70C0F2769F62D00001BFE /* Sources */,
+				18C70C102769F62D00001BFE /* Frameworks */,
+				18C70C112769F62D00001BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C70C152769F62D00001BFE /* PBXTargetDependency */,
+			);
+			name = RunewoodTests;
+			productName = RunewoodTests;
+			productReference = 18C70C132769F62D00001BFE /* RunewoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C70C1D2769F62D00001BFE /* RunewoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C70C2D2769F62D00001BFE /* Build configuration list for PBXNativeTarget "RunewoodUITests" */;
+			buildPhases = (
+				E462BC9D997936D83BA0CBB6 /* [CP] Check Pods Manifest.lock */,
+				18C70C1A2769F62D00001BFE /* Sources */,
+				18C70C1B2769F62D00001BFE /* Frameworks */,
+				18C70C1C2769F62D00001BFE /* Resources */,
+				3BD5B3C33C0C3D2C353DBF57 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C70C202769F62D00001BFE /* PBXTargetDependency */,
+			);
+			name = RunewoodUITests;
+			productName = RunewoodUITests;
+			productReference = 18C70C1E2769F62D00001BFE /* RunewoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C70BF52769F62A00001BFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					18C70BFC2769F62A00001BFE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					18C70C122769F62D00001BFE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18C70BFC2769F62A00001BFE;
+					};
+					18C70C1D2769F62D00001BFE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18C70BFC2769F62A00001BFE;
+					};
+				};
+			};
+			buildConfigurationList = 18C70BF82769F62A00001BFE /* Build configuration list for PBXProject "Runewood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C70BF42769F62A00001BFE;
+			productRefGroup = 18C70BFE2769F62A00001BFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C70BFC2769F62A00001BFE /* Runewood */,
+				18C70C122769F62D00001BFE /* RunewoodTests */,
+				18C70C1D2769F62D00001BFE /* RunewoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C70BFB2769F62A00001BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C70C0D2769F62D00001BFE /* LaunchScreen.storyboard in Resources */,
+				18C70C0A2769F62D00001BFE /* Assets.xcassets in Resources */,
+				18C70C082769F62B00001BFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C70C112769F62D00001BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C70C1C2769F62D00001BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		259D913E7F1E60B3F5F96A54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runewood/Pods-Runewood-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runewood/Pods-Runewood-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runewood/Pods-Runewood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BD5B3C33C0C3D2C353DBF57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runewood-RunewoodUITests/Pods-Runewood-RunewoodUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runewood-RunewoodUITests/Pods-Runewood-RunewoodUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runewood-RunewoodUITests/Pods-Runewood-RunewoodUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A3F5E75D31DBC8E0D80FB17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runewood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F9B36715B55F07CDD51790 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunewoodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E462BC9D997936D83BA0CBB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runewood-RunewoodUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C70BF92769F62A00001BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183220E2277C4743003E3F77 /* WelcomeViewController.swift in Sources */,
+				189395DE27C64F7F008F07E3 /* SpinnerView.swift in Sources */,
+				18D826672774812B00101539 /* RoundCornerView.swift in Sources */,
+				18A0A8EE27A7F4C4007FF62B /* ReConnectVC.swift in Sources */,
+				18C70C052769F62B00001BFE /* ViewController.swift in Sources */,
+				18C70C012769F62A00001BFE /* AppDelegate.swift in Sources */,
+				187FDB292779DE3A00BB42D5 /* UIExtensions.swift in Sources */,
+				187FDA922779A31000BB42D5 /* AppConstants.swift in Sources */,
+				189395E027C8B91F008F07E3 /* ConnectionViewController.swift in Sources */,
+				18A0A8C827A7D400007FF62B /* IncorrectPassVC.swift in Sources */,
+				187FDA4627799A7500BB42D5 /* ButtonsViewController.swift in Sources */,
+				18C70CA0276C705C00001BFE /* DeviceTableViewCell.swift in Sources */,
+				18D8266F2774821800101539 /* PasswordViewController.swift in Sources */,
+				183220FC277C84C4003E3F77 /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C70C0F2769F62D00001BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C70C182769F62D00001BFE /* RunewoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C70C1A2769F62D00001BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C70C232769F62D00001BFE /* RunewoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C70C152769F62D00001BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C70BFC2769F62A00001BFE /* Runewood */;
+			targetProxy = 18C70C142769F62D00001BFE /* PBXContainerItemProxy */;
+		};
+		18C70C202769F62D00001BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C70BFC2769F62A00001BFE /* Runewood */;
+			targetProxy = 18C70C1F2769F62D00001BFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C70C062769F62B00001BFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C70C072769F62B00001BFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C70C0B2769F62D00001BFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C70C0C2769F62D00001BFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C70C252769F62D00001BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C70C262769F62D00001BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C70C282769F62D00001BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97ABB029D5B11967B8583CA /* Pods-Runewood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = 5244239JZ8;
+				INFOPLIST_FILE = Runewood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.embrace.runewoodapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18C70C292769F62D00001BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D05C6C4254FEBAFF0830A4 /* Pods-Runewood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = 5244239JZ8;
+				INFOPLIST_FILE = Runewood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.embrace.runewoodapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18C70C2B2769F62D00001BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91895943A4F0111D1734D962 /* Pods-RunewoodTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 845L63PXUS;
+				INFOPLIST_FILE = RunewoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcrates.RunewoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runewood.app/Runewood";
+			};
+			name = Debug;
+		};
+		18C70C2C2769F62D00001BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339FFD09ECB795F49D36A9AB /* Pods-RunewoodTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 845L63PXUS;
+				INFOPLIST_FILE = RunewoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcrates.RunewoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runewood.app/Runewood";
+			};
+			name = Release;
+		};
+		18C70C2E2769F62D00001BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71479C1406C62CAC1AF2B1B3 /* Pods-Runewood-RunewoodUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 845L63PXUS;
+				INFOPLIST_FILE = RunewoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcrates.RunewoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Runewood;
+			};
+			name = Debug;
+		};
+		18C70C2F2769F62D00001BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D8F93C4369B0AAE4A92902 /* Pods-Runewood-RunewoodUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 845L63PXUS;
+				INFOPLIST_FILE = RunewoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcrates.RunewoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Runewood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C70BF82769F62A00001BFE /* Build configuration list for PBXProject "Runewood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C70C252769F62D00001BFE /* Debug */,
+				18C70C262769F62D00001BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C70C272769F62D00001BFE /* Build configuration list for PBXNativeTarget "Runewood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C70C282769F62D00001BFE /* Debug */,
+				18C70C292769F62D00001BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C70C2A2769F62D00001BFE /* Build configuration list for PBXNativeTarget "RunewoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C70C2B2769F62D00001BFE /* Debug */,
+				18C70C2C2769F62D00001BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C70C2D2769F62D00001BFE /* Build configuration list for PBXNativeTarget "RunewoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C70C2E2769F62D00001BFE /* Debug */,
+				18C70C2F2769F62D00001BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C70BF52769F62A00001BFE /* Project object */;
+}
